@@ -5,15 +5,19 @@ A modular personal finance tracking application built with Python and Streamlit,
 ## Project Structure
 
 ```
-finance_tracker/
+personal-finance-tracker/
 │
-├── main.py                 # Main Streamlit application
-├── database.py             # Database operations and models
-├── csv_parser.py           # CSV parsing and data cleaning
-├── sample_data.py          # Sample data generation
-├── requirements.txt        # Python dependencies
-├── README.md              # This file
-└── finance.db             # SQLite database (auto-created)
+├── README.md              # project documentation
+├── LICENSE                # mit license
+├── requirements.txt       # python dependencies
+│
+└── code/                  # source code
+    ├── main.py            # main streamlit application
+    ├── database.py        # database operations and models
+    ├── csv_parser.py      # csv parsing and data cleaning
+    ├── ml_categorizer.py  # machine learning categorization
+    ├── sample_data.py     # sample data generation
+    └── finance.db         # sqlite database (auto-created)
 ```
 
 ## Quick Start
